@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brianrenshaw.github.io/where-do-we-eat-site/sitemap.xml

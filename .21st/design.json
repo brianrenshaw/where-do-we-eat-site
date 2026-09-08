@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "project": {
+    "name": "where-do-we-eat-site",
+    "productType": "Native app public home and guide",
+    "stack": ["HTML", "CSS", "GitHub Pages"]
+  },
+  "sources": {
+    "tokens": [],
+    "components": [],
+    "assets": [],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "light and dark",
+    "colors": {
+      "canvas": "#f7f5f1",
+      "ink": "#24241f",
+      "accent": "#b63f2c",
+      "sage": "#456449"
+    },
+    "typography": {
+      "body": "system sans-serif"
+    },
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "comfortable"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [],
+    "avoid": []
+  },
+  "decisions": [
+    "Use the existing orange app icon, warm canvas, system sans-serif, and real app screenshots.",
+    "Keep native links, details, and a guide table of contents; no runtime framework or animation."
+  ],
+  "evidence": [
+    "Inspected app icon, current DiningHelpView copy, and app screenshots.",
+    "21st search returned hero and sidebar patterns; retain existing static HTML primitives to avoid React dependencies."
+  ],
+  "generatedAt": "2026-09-08T15:20:54.217Z"
+}
