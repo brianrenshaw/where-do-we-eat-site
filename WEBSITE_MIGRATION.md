@@ -9,7 +9,7 @@ The public website is maintained in **[brianrenshaw-app-site](https://github.com
 - App page / Marketing URL: https://brianrenshaw.app/where-do-we-eat/
 - Support URL: https://brianrenshaw.app/where-do-we-eat/support/
 - Privacy Policy URL: https://brianrenshaw.app/where-do-we-eat/privacy/
-- Contact: contact@foliohtml.com
+- Contact: contact@brianrenshaw.app
 - App Store Connect app ID: `6808350718`
 - User guide: https://brianrenshaw.app/where-do-we-eat/guide/
 
