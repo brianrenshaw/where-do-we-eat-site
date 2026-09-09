@@ -28,3 +28,11 @@ The new site is static HTML/CSS plus the existing browser game. GitHub Actions v
 Rollout is in progress. The central [migration log](https://github.com/brianrenshaw/brianrenshaw-app-site/blob/main/MIGRATION.md) is authoritative for HTTPS, legacy redirects, Apple read-back results, remaining release-dependent changes, and verification limits.
 
 Website changes are committed separately from ongoing app work. Existing uncommitted app changes are preserved. Historical submission snapshots may contain the previous URLs; use the canonical values above for the next submission.
+
+## September 9: Work Lunch website refresh
+
+Replaced the Where Do We Eat website imagery with four genuine iPhone 17 Pro Max simulator captures: Decide, choices, Log, and Juniper Kitchen visit details. All use an explicitly enabled, isolated in-memory Work Lunch fixture with fictional restaurants and people. The hero retains Decide; a responsive Choices/Log gallery precedes the memory section, which now shows visit details. Published imagery is labeled sample data.
+
+The icon is the exact native 4A red-background AppIcon-light.png master, with an HTML corner mask and square source artwork. Portfolio, landing, subpages, favicon, touch and social references use the refreshed asset; the readable legacy privacy page also uses it. Superseded deployed screenshots and inverted icon bytes are removed. Coral now uses #E8391A in the app and widget; other context tokens and aliases remain unchanged.
+
+Validation: iOS Simulator and macOS builds passed; DiningType color/alias tests and native screenshot navigation tests passed. Native light/dark screens were inspected. Isolated Chromium checks passed at 375, 834 and 1440px, including dark appearance, keyboard focus, reduced motion, image loading, icon masking and no horizontal overflow. The static checker passes 20 HTML pages and 279 local links/assets. Reading Habit screenshot work and visual review of other app pages remain separate. No App Store Connect metadata or TestFlight changes were made.
